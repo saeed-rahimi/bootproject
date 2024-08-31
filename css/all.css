@@ -11,6 +11,25 @@
               --border-color: #EBEBEB;
               --text-color: #9D9D9D;
               --icon-color: #383A39;
+              --yellow-star: #D5C02F;
+              --bottom-img: #B4B4B4;
+              --bg-btn: #2DD273;
+              --col-border: #5BCD8F;
+              --color-white: #fff;
+          }
+          
+          .btnitem {
+              background-color: var(--bg-btn);
+              color: var( --color-white);
+              border: 1px solid var(--col-border);
+          }
+          
+          .yellow {
+              color: var(--yellow-star);
+          }
+          
+          .text-color {
+              color: var(--bottom-img);
           }
           
           ul,
@@ -56,4 +75,38 @@
               position: absolute !important;
               left: 0 !important;
               display: none;
+          }
+          
+          .font-size-small {
+              font-size: calc(0.5rem + 0.25vw) !important;
+          }
+          
+          .buy button:hover {
+              width: 30% !important;
+              border-radius: 5px !important;
+              -webkit-border-radius: 5px !important;
+              -moz-border-radius: 5px !important;
+              -ms-border-radius: 5px !important;
+              -o-border-radius: 5px !important;
+          }
+          
+          .buy button {
+              height: 2rem;
+              transition: all 0.5s ease;
+              -webkit-transition: all 0.5s ease;
+              -moz-transition: all 0.5s ease;
+              -ms-transition: all 0.5s ease;
+              -o-transition: all 0.5s ease;
+          }
+          
+          .buy button {
+              vertical-align: middle;
+              display: flex;
+              justify-content: space-between;
+              align-items: first baseline;
+          }
+          
+          .buy button:hover span {
+              display: block !important;
+              color: #ffffff;
           }
