@@ -65,10 +65,6 @@
               width: calc(0.25rem + 0.25vw) !important;
               height: calc(0.25rem + 0.25vw) !important;
               border-radius: 50%;
-              -webkit-border-radius: ;
-              -moz-border-radius: ;
-              -ms-border-radius: ;
-              -o-border-radius: ;
           }
           
           .Myslide {
