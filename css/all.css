@@ -106,3 +106,9 @@
               display: block !important;
               color: #ffffff;
           }
+          
+          .hands {
+              border-bottom: 1px solid red;
+              width: 70px !important;
+              margin-top: 20px !important;
+          }
